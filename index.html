@@ -2,10 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruiqian's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+
+    <!-- <link href="style.css" rel="stylesheet"> -->
+
+    <link href="style.css" rel="stylesheet">
 </head>
+
+
+
 <body>
-    <h1>portfolio</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#" id="nav-work">Work</a></li>
+            <li><a href="about.html" id="nav-about">About</a></li>
+        </ul>
+    </nav>
+    
+    <header> 
+        <div id="header-img">
+            <img src="images/header.png" alt="header image">
+        </div>
+        <div id="intro">
+            <img src="images/pron.png" id="pron" alt="pronounciation-image">
+            <h1>Hi, I'm Ruiqian!</h1>
+    
+            <img src="images/noun.svg" id="noun-img" alt="border image">
+            <p id="noun">UI/UX designer, Instructional designer</p>
+    
+            <img src="images/verb.svg" id="verb-img" alt="border image">
+            <ol id="verb">
+                <li><p>1. Design user experiences on screen,</p></li>
+                <li><p>2. Capture memories behind the lens</p></li>
+            </ol>
+        </div>
+        <div>
+            <img src="images/profile-image.png" alt="profile image" id="profile-image">
+        </div>
+    </header>
+
+    <section id="work">
+        <div id="featured-proj">
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div id="projects-grid">
+            <div class="project-card">
+                <a href="momentum.html"><img src="images/uiux-project.jpg" alt="MOMentum project" class="proj-img"></a>
+                <h3>“MOMentum”</h3>
+                <p class="proj">UI/UX, UX research</p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <a href="pawfect.html"><img src="images/web-design.jpg" alt="Pawfect project" class="proj-img"></a>
+                <h3>“Pawfect”</h3>
+                <p class="proj">UI/UX, Web design</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <a href="vision.html"><img src="images/vision.jpg" alt="Intersectional Identities project" class="proj-img"></a>
+                <h3>“VisionCare”</h3>
+                <p class="proj">HCI, UIUX, Hardware, Prototyping</p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <a href="nature.html"><img src="images/nature.jpg" alt="typography-poster" class="proj-img"></a>
+                <h3>"NatureWithin"</h3>
+                <p class="proj">HCI, Product Design, UIUX</p>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <a href="graphic.html"><img src="images/event-poster.jpg" alt="event-poster" class="proj-img"></a>
+                <h3>Graphic Design</h3>
+                <!-- <p class="proj">Graphic design</p> -->
+            </div>
+            <!-- Project 6 -->
+            <!-- <div class="project-card">
+                <a href="zine.html"><img src="images/zine.jpg" alt="zine image" class="proj-img"></a>
+                <h3>Zine</h3>
+                <p class="proj">Graphic design</p>
+            </div> -->
+        </div>
+    </section>
+    
+    <div id="featured-proj">
+        <h2>Frontend Portals</h2>
+    </div>
+    <p id="portal-des">A collection of portals of smaller projects created with HTML, CSS, and JavaScript.</p>
+
+    <div class="portal-container">
+        <div class="portal">
+            <a href="https://ruiqian-wang.github.io/des157a/">
+                <img src="images/portal1.svg" alt="Portal 1" class="portal-img">
+            </a>
+        </div>
+        <div class="portal">
+            <a href="https://ruiqian-wang.github.io/des157b/">
+                <img src="images/portal2.svg" alt="Portal 2" class="portal-img">
+            </a>
+        </div>
+    </div>
+
+    
+
+    
+    <footer>
+        <div>
+            <img src="images/footer-img.png" alt="footer image" id="footer-img">
+        </div>
+
+        <div>
+            <div id="footer-1">
+                <p>Designed by Ruiqian</p>
+            </div>
+
+            <div id="footer-2">
+                <p>Thank you for visiting!</p>
+            </div>
+            
+            <div id="footer-3">
+                <a href="mailto:wrqwang@ucdavis.edu">Email</a>
+                <a href="https://drive.google.com/file/d/1IcXPA1oLURbutdc58h0G0SeBwMhKrDN4/view?usp=sharing">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 </html>
